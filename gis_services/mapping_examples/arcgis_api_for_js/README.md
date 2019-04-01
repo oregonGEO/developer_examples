@@ -6,6 +6,7 @@ The Esri [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/la
 
 In this example, we will add the service, [Oregon 500-yr Flood Zones](http://navigator.state.or.us/arcgis/rest/services/Framework/Haz_GeneralMap_WM/MapServer/3){:target="_blank"}, to a web map using the latest version of the [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/guide/quick-start/){:target="_blank"}.
 
++ [View Example](https://oregongeo.github.io/developer_examples/gis_services/mapping_examples/arcgis_api_for_js/index.html){:target="_blank"}
 
 To get started, create a file called `index.html`.
 
@@ -61,7 +62,7 @@ require([
   var view = new MapView({
     container: "myMap",
     map: map,
-    center: [-122.617893,44.851488],
+    center: [-123.018723,44.925675],
     zoom: 12
   });
 
@@ -79,3 +80,4 @@ In the `main.js` file, we:
 2. Instantiate our map and view.
 3. Instantiate a new feature layer, providing the url to the 500-yr flood zone service.
 4. Add the layer to our map.
+
