@@ -6,7 +6,7 @@ Tile layers allows you work with a cached [map service](https://enterprise.arcgi
 
 In this example, we will be using the [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/){:target="_blank"}.
 
-+ [View Example](https://oregongeo.github.io/developer_examples/imagery_services/arcgis_api_for_js/tile_service/index.html){:target="_blank"}
++ [View Example](https://oregongeo.github.io/developer_examples/imagery_services/arcgis_api_for_js/tile_service/){:target="_blank"}
 + [View Source](https://github.com/oregonGEO/developer_examples/tree/gh-pages/imagery_services/arcgis_api_for_js/tile_service){:target="_blank"}
 
 We will need to create two files to setup our project:
